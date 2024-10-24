@@ -1,6 +1,12 @@
+import Hero from "../Components/HeroSection/Hero"
+import TopCollections from "../Components/TopCollections"
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Hero/>
+      <TopCollections/>
+    </div>
   )
 }
 export default Home
