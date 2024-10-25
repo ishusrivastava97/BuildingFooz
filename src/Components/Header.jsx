@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { IoIosArrowDown } from "react-icons/io";
-
+import logo from ".././../public/file.png"
 const styles = {
   wrapper: `bg-[#fb5b5b] text-black text-center py-2 font-bold fixed top-0 w-full z-50`,
   headermain: `mt-10 bg-[#fdbdbd] text-center flex items-center h-[80px]`,
@@ -28,7 +28,7 @@ const Header = () => {
       </div>
       <header className={styles.headermain}>
         <div className="flex cursor-pointer">
-          <img src="/file.png" alt="" className="h-[50px] w-[170px] mt-3" />
+          <img src={logo} alt="logo" className="h-[50px] w-[170px] mt-3" />
         </div>
         <div className="mx-auto text-2xl">
           <nav className="hidden md:flex space-x-6">
