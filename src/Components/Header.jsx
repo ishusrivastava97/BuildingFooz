@@ -168,6 +168,7 @@ const Header = () => {
             <MdOutlineShoppingCart className="h-[45px] w-[45px] cursor-pointer" />
           </Link>
           <div className="w-[22px] h-[22px] flex justify-center items-center -mt-[35px] -ml-[55px] rounded-[11px] text-[14px] bg-red-500 text-white">
+            0
           </div>
         </div>
       </header>
